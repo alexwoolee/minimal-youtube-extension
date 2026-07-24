@@ -1,0 +1,36 @@
+/* --- SIDEBAR ---*/
+/* Action: Hides the Shorts button */
+ytd-guide-entry-renderer:has(a[title="Shorts"]) {
+  display: none !important;
+}
+
+/* Action: Hides the entire Explore section */
+ytd-guide-section-renderer:has(a[title="Music"]) {
+  display: none !important;
+}
+
+/* Action: Hides the entire More from YouTube section */
+ytd-guide-section-renderer:has(a[title="YouTube Music"]) {
+  display: none !important;
+}
+
+/* Action: Hides header */
+#header {
+  display: none !important;
+}
+
+/* Action: Hides footer */
+#footer {
+  display: none !important;
+}
+
+/* --- HOME --- */
+/* Action: Hides Short sections in home */
+.ytd-rich-section-renderer:has([is-shorts]) {
+  display: none !important;
+}
+
+/* Action: Hides genre selector */
+iron-selector {
+  display: none !important;
+}
