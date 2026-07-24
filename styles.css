@@ -14,8 +14,8 @@ ytd-guide-section-renderer:has(a[title="YouTube Music"]) {
   display: none !important;
 }
 
-/* Action: Hides header */
-#header {
+/* Action: Hides the list of channels under Subscriptions button */
+div#items:has(a[title="Subscriptions"]) > ytd-guide-entry-renderer {
   display: none !important;
 }
 
