@@ -34,3 +34,19 @@ div#items:has(a[title="Subscriptions"]) > ytd-guide-entry-renderer {
 iron-selector {
   display: none !important;
 }
+
+#contents {
+  padding-top: 0 !important;
+}
+
+#contents::before {
+  content: "" !important;
+  display: block !important;
+  width: 100% !important;
+  min-height: 60vh !important;
+}
+
+/* Action: Hides the header */
+div#primary div#header {
+  display: none !important;
+}
